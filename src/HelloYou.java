@@ -10,8 +10,8 @@
  */
 public class HelloYou {
     public static void main(String[] args) {
-        System.out.println("Alisher");
-        System.out.println("I am 27 years old");
-        System.out.println("I am AP Computer Science teacher");
+        System.out.println("--------");
+        System.out.println("| Alisher |");
+        System.out.println("--------");
     }
 }
