@@ -9,19 +9,19 @@
 public class BadVariables {
     public static void main(String[] args) {
 
-        int secondPlace = 5; // Identifiers cannot begin with a number.
+        int secondPlace = 5;    // variable identifier can't start with number
 
-        double price = 9.99; // A double must use a numeric value, not a String.
+        double price = 9.99;    // double values must be numeric
 
-        boolean isReady = true; // A boolean must use true or false without quotes.
+        boolean isReady = true; // boolean values must be true or false
 
-        char grade = 'A'; // A char uses single quotes, not double quotes.
+        char grade = 'A';
 
-        int classNumber = 11; // class is a reserved Java keyword.
+        int gradeLevel = 11;
 
-        String name = "Sarah"; // Variable names should use camelCase, not PascalCase.
+        String firstName = "Sarah"; //variables start with lower case
 
-        int studentScore = 95; // Identifiers cannot contain spaces.
+        int studentScore = 95;
 
         System.out.println("If this runs, you fixed them all.");
     }

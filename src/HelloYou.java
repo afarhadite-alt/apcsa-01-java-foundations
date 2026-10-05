@@ -10,8 +10,6 @@
  */
 public class HelloYou {
     public static void main(String[] args) {
-        System.out.println("--------");
-        System.out.println("| Alisher |");
-        System.out.println("--------");
+        System.out.println(CompoundInterest(50000, 7, 0.07));
     }
 }

@@ -6,16 +6,16 @@ For each value, pick the best Java type and justify it in **one sentence.** The 
 
 | # | Value to store | Type | Why |
 |---|---|---|---|
-| 1 | A student's age | | |
-| 2 | The price of a coffee | | |
-| 3 | Whether a student is enrolled | | |
-| 4 | A student's middle initial | | |
-| 5 | A phone number | | |
-| 6 | The population of New York City | | |
-| 7 | A test score out of 100 | | |
-| 8 | A GPA | | |
-| 9 | Whether it is currently raining | | |
-| 10 | A student ID like `0074512` | | |
+| 1 | A student's age | int | Because its a whole number |
+| 2 | The price of a coffee | double | price includes decimals to the nearest hundredths |
+| 3 | Whether a student is enrolled | boolean | because its true or false |
+| 4 | A student's middle initial | char | because its a single character |
+| 5 | A phone number | String | there are character besides just numbers |
+| 6 | The population of New York City | int | people counted as whole numbers |
+| 7 | A test score out of 100 | int or double | |
+| 8 | A GPA | double | |
+| 9 | Whether it is currently raining | boolean | |
+| 10 | A student ID like `0074512` | String | |
 
 ### Traps to think carefully about
 
